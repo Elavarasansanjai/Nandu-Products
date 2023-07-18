@@ -41,7 +41,7 @@ const router = createBrowserRouter([
   },
 ]);
 const App = () => {
-  console.log(useSelector(({ users }) => users.curentUser.cart.addres));
+
   const userDispatch = useDispatch();
   const prodectDispatch = useDispatch();
   const cartDispatch = useDispatch();
