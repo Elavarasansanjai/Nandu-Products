@@ -19,7 +19,7 @@ const UserProfile = () => {
         <div>
           <h3>Hi {curentUser}</h3>
         </div>
-        {cartList && cartList.length > 0 ? (
+        {cartList && cartList.length > 0 && curentAddress.cart.addres? (
           <div className="order-detail">
             <h3>Address</h3>
             <div>
